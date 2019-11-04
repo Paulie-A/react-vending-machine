@@ -5,3 +5,13 @@
     background-position: center;
     padding-top: 700px;
 }
+
+   a {
+    margin: 2rem;
+    text-decoration: none;
+    /* color: white; */
+    transition: all 0.5s ease;
+}
+
+
+ 

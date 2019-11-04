@@ -1,13 +1,14 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import Message from './Message';
 import './VendingMachine.css';
-
 
 
 function VendingMachine() {
     return (
         <div className="VendingMachine">
+             <Message>
             <h1>Vending Machine</h1>
+            </Message>
             <div className="VendingMachine-img"></div>
        </div>
   
@@ -16,4 +17,4 @@ function VendingMachine() {
 
 
 
-  export default VendingMachine
+  export default VendingMachine;
